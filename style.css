@@ -1,0 +1,14 @@
+:root {
+  --data-primary-color: rgb(126, 126, 113);
+  --data-secondary-color: rgb(105, 156, 172);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--data-secondary-color);
+}
+
+body {
+  background-color: var(--data-primary-color);
+}
